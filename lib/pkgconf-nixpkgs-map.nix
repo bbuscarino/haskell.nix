@@ -78,7 +78,10 @@ pkgs:
     "lapack"                             = [ pkgs."liblapack" ];
     "lber"                               = [ pkgs."openldap" ];
     "ldap"                               = [ pkgs."openldap" ];
-    "libavutil"                          = [ pkgs."ffmpeg" ];
+    "libavcodec"                         = [ pkgs."libav" ];
+    "libavdevice"                        = [ pkgs."libav" ];
+    "libavformat"                        = [ pkgs."libav" ];
+    "libavutil"                          = [ pkgs."libav" ];
     "libcrypto"                          = [ pkgs."openssl".dev ];
     "libgsasl"                           = [ pkgs."gsasl" ];
     "libpcre"                            = [ pkgs."pcre" ];
@@ -89,6 +92,7 @@ pkgs:
     "libsoup-2.4"                        = [ pkgs."libsoup" ];
     "libsoup-gnome-2.4"                  = [ pkgs."libsoup" ];
     "libssl"                             = [ pkgs."openssl".dev ];
+    "libswscale"                         = [ pkgs."libav" ];
     "libsystemd"                         = [ pkgs."systemd" ];
     "libudev"                            = [ pkgs."systemd" ];
     "libusb-1.0"                         = [ pkgs."libusb1" ];
