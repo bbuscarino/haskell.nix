@@ -80,6 +80,7 @@ pkgs:
     "ldap"                               = [ pkgs."openldap" ];
     "libavcodec"                         = [ pkgs."libav" ];
     "libavdevice"                        = [ pkgs."libav" ];
+    
     "libavformat"                        = [ pkgs."libav" ];
     "libavutil"                          = [ pkgs."libav" ];
     "libcrypto"                          = [ pkgs."openssl".dev ];
